@@ -23,6 +23,9 @@ public class Main {
         secondMeal.setDrinkSize("SMALL");
         secondMeal.printItemizedList();
 
-
+        MealOrder deluxMeal = new MealOrder("delux","sprite", "chili");
+        deluxMeal.addBurgerToppings("LETTUCE", "CHEESE", "MAYO", "AVACADO", "NACHOS");
+        deluxMeal.setDrinkSize("SMALL");
+        deluxMeal.printItemizedList();
     }
 }
